@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "timestamp": "2024-03-15T13:45:30Z",
+      "source_ip": "192.168.1.1",
+      "destination_ip": "192.168.1.2",
+      "event_type": "Login Failure",
+      "user": "john.doe",
+      "message": "Failed login attempt"
+    },
+    {
+      "timestamp": "2024-03-15T13:46:30Z",
+      "source_ip": "192.168.1.1",
+      "destination_ip": "192.168.1.2",
+      "event_type": "Malware Detection",
+      "user": "admin",
+      "message": "Malware detected"
+    }
+  ]
+}

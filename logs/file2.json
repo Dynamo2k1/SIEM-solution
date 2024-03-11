@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "timestamp": "2024-03-16T10:30:15Z",
+      "source_ip": "192.168.1.3",
+      "destination_ip": "192.168.1.4",
+      "event_type": "Network Connection",
+      "user": "alice",
+      "message": "Established network connection"
+    },
+    {
+      "timestamp": "2024-03-16T10:31:20Z",
+      "source_ip": "192.168.1.3",
+      "destination_ip": "192.168.1.4",
+      "event_type": "File Access",
+      "user": "bob",
+      "message": "Accessed sensitive file"
+    }
+  ]
+}

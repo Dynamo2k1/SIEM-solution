@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "timestamp": "2024-03-18T20:45:00Z",
+      "source_ip": "192.168.1.7",
+      "destination_ip": "192.168.1.8",
+      "event_type": "Data Exfiltration Attempt",
+      "user": "eve",
+      "message": "Attempted to exfiltrate data"
+    },
+    {
+      "timestamp": "2024-03-18T20:46:10Z",
+      "source_ip": "192.168.1.7",
+      "destination_ip": "192.168.1.8",
+      "event_type": "Brute Force Attack",
+      "user": "mallory",
+      "message": "Brute force attack detected"
+    }
+  ]
+}

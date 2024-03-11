@@ -1,0 +1,8 @@
+{
+    "timestamp": "2024-03-11 11:24:04",
+    "source_ip": "172.64.155.141",
+    "destination_ip": "192.168.1.2",
+    "event_type": "TCP",
+    "user_name": "Unknown",
+    "message": "Networking connection detected"
+}

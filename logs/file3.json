@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "timestamp": "2024-03-17T15:20:45Z",
+      "source_ip": "192.168.1.5",
+      "destination_ip": "192.168.1.6",
+      "event_type": "User Account Creation",
+      "user": "charlie",
+      "message": "Created new user account"
+    },
+    {
+      "timestamp": "2024-03-17T15:21:50Z",
+      "source_ip": "192.168.1.5",
+      "destination_ip": "192.168.1.6",
+      "event_type": "Software Installation",
+      "user": "david",
+      "message": "Installed software update"
+    }
+  ]
+}
