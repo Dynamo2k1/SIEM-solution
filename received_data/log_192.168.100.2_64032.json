@@ -1,0 +1,8 @@
+{
+    "timestamp": "2024-03-17 00:44:58",
+    "source_ip": "192.168.100.2",
+    "destination_ip": "192.168.56.1",
+    "event_type": "Attack",
+    "user_name": "Unknown",
+    "message": "Attack detected"
+}

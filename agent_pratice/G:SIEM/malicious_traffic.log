@@ -1,0 +1,421 @@
+2024-03-17 16:39:01,524 - package: mysql.connector.plugins
+2024-03-17 16:39:01,524 - plugin_name: mysql_native_password
+2024-03-17 16:39:01,525 - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-03-17 16:39:01,593 - Error scanning for malware: [WinError 3] The system cannot find the path specified
+2024-03-17 16:39:01,593 - Error running wevtutil command: [Errno 2] No such file or directory: 'events.json'
+2024-03-17 16:39:03,876 - Source IP: 192.168.100.2, Destination IP: 192.168.100.1
+2024-03-17 16:39:03,877 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:03,883 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:03,888 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:03,989 - Source IP: 192.168.100.1, Destination IP: 192.168.100.2
+2024-03-17 16:39:03,990 - Networking connection detected from 192.168.100.1
+2024-03-17 16:39:03,990 - Attack information stored in attack_info.json for 192.168.100.1: Networking connection
+2024-03-17 16:39:03,996 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,055 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,055 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,055 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,059 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,060 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,060 - Nmap scan detected from 20.50.80.210
+2024-03-17 16:39:04,061 - Attack information stored in attack_info.json for 20.50.80.210: Nmap scan
+2024-03-17 16:39:04,065 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,227 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,228 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,229 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,241 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,245 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,246 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,247 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,255 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,257 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,257 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,280 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,286 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,406 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,407 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,407 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,412 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,413 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,413 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,414 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,419 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,432 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,432 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,433 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,438 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,439 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,439 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,440 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,444 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,444 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,445 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,445 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,450 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,452 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,452 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,453 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,457 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,459 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,459 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,460 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,479 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,481 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,481 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,482 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,486 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,605 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,606 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,607 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,622 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,625 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,626 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,628 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,635 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,636 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,637 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,637 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,643 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,644 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,644 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,645 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,649 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,649 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,649 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,649 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,654 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,655 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,655 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,655 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,667 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,668 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,668 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,668 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,672 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,796 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,798 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,800 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,811 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,813 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,814 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,816 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,823 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,824 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,824 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,825 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,846 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,847 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,847 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,847 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,853 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,853 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,854 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,854 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,857 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,858 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,858 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,859 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,911 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,912 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,912 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,913 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,919 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,920 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,920 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,920 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,924 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,925 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,925 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,925 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,931 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,932 - Source IP: 192.168.100.2, Destination IP: 20.50.80.210
+2024-03-17 16:39:04,932 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:04,933 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:04,937 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:04,938 - Source IP: 20.50.80.210, Destination IP: 192.168.100.2
+2024-03-17 16:39:04,938 - Networking connection detected from 20.50.80.210
+2024-03-17 16:39:04,938 - Attack information stored in attack_info.json for 20.50.80.210: Networking connection
+2024-03-17 16:39:04,942 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:06,054 - Source IP: 157.240.227.61, Destination IP: 192.168.100.2
+2024-03-17 16:39:06,055 - Networking connection detected from 157.240.227.61
+2024-03-17 16:39:06,057 - Attack information stored in attack_info.json for 157.240.227.61: Networking connection
+2024-03-17 16:39:06,069 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:06,072 - Source IP: 192.168.100.2, Destination IP: 157.240.227.61
+2024-03-17 16:39:06,073 - Networking connection detected from 192.168.100.2
+2024-03-17 16:39:06,074 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:39:06,082 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:39:06,101 - Source IP: 157.240.227.61, Destination IP: 192.168.100.2
+2024-03-17 16:39:06,101 - Networking connection detected from 157.240.227.61
+2024-03-17 16:39:06,102 - Attack information stored in attack_info.json for 157.240.227.61: Networking connection
+2024-03-17 16:39:06,107 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:45,958 - package: mysql.connector.plugins
+2024-03-17 16:48:45,977 - plugin_name: mysql_native_password
+2024-03-17 16:48:45,980 - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-03-17 16:48:46,060 - Error scanning for malware: [WinError 3] The system cannot find the path specified
+2024-03-17 16:48:46,073 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,073 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,074 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,074 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,075 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,075 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,076 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,076 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,076 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,076 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,077 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,077 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,077 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,078 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,078 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,078 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,092 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,092 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,092 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,092 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,093 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,093 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,093 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:48:46,465 - Source IP: 20.65.133.236, Destination IP: 192.168.100.2
+2024-03-17 16:48:46,466 - Networking connection detected from 20.65.133.236
+2024-03-17 16:48:46,467 - Attack information stored in attack_info.json for 20.65.133.236: Networking connection
+2024-03-17 16:48:46,475 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:46,738 - Source IP: 192.168.100.2, Destination IP: 20.65.133.236
+2024-03-17 16:48:46,739 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:46,741 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:46,756 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:46,759 - Source IP: 20.65.133.236, Destination IP: 192.168.100.2
+2024-03-17 16:48:46,759 - Networking connection detected from 20.65.133.236
+2024-03-17 16:48:46,761 - Attack information stored in attack_info.json for 20.65.133.236: Networking connection
+2024-03-17 16:48:46,767 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:48,476 - Source IP: 192.168.100.2, Destination IP: 44.214.171.121
+2024-03-17 16:48:48,477 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:48,479 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:48,494 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:48,810 - Source IP: 44.214.171.121, Destination IP: 192.168.100.2
+2024-03-17 16:48:48,810 - Networking connection detected from 44.214.171.121
+2024-03-17 16:48:48,859 - Attack information stored in attack_info.json for 44.214.171.121: Networking connection
+2024-03-17 16:48:48,866 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:49,095 - Source IP: 157.240.227.61, Destination IP: 192.168.100.2
+2024-03-17 16:48:49,095 - Networking connection detected from 157.240.227.61
+2024-03-17 16:48:49,095 - Attack information stored in attack_info.json for 157.240.227.61: Networking connection
+2024-03-17 16:48:49,099 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:49,110 - Source IP: 192.168.100.2, Destination IP: 157.240.227.61
+2024-03-17 16:48:49,110 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:49,111 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:49,115 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:49,288 - Source IP: 157.240.227.61, Destination IP: 192.168.100.2
+2024-03-17 16:48:49,290 - Networking connection detected from 157.240.227.61
+2024-03-17 16:48:49,291 - Attack information stored in attack_info.json for 157.240.227.61: Networking connection
+2024-03-17 16:48:49,305 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,168 - Source IP: 192.168.100.2, Destination IP: 192.168.100.1
+2024-03-17 16:48:51,168 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:51,169 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:51,176 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,180 - Source IP: 192.168.100.1, Destination IP: 192.168.100.2
+2024-03-17 16:48:51,180 - Networking connection detected from 192.168.100.1
+2024-03-17 16:48:51,181 - Attack information stored in attack_info.json for 192.168.100.1: Networking connection
+2024-03-17 16:48:51,197 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,412 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:51,412 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:51,413 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:51,418 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,419 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:51,419 - Nmap scan detected from 52.168.117.169
+2024-03-17 16:48:51,420 - Attack information stored in attack_info.json for 52.168.117.169: Nmap scan
+2024-03-17 16:48:51,425 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,676 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:51,677 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:51,678 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:51,686 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,688 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:51,689 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:51,689 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:51,699 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,700 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:51,701 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:51,701 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:51,735 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,976 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:51,977 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:51,977 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:51,983 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,984 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:51,984 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:51,985 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:51,992 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:51,992 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:51,993 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:51,993 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:51,999 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,000 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,000 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,001 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,009 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,010 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,010 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,019 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,025 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,027 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,027 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,031 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,036 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,038 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,039 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,044 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,049 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,222 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,222 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,230 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,234 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,235 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,236 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,236 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,241 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,243 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,243 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,243 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,248 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,248 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,249 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,249 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,253 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,253 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,254 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,254 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,260 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,261 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,261 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,261 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,265 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,465 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,465 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,467 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,480 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,482 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,482 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,483 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,495 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,496 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,496 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,496 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,501 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,502 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,502 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,502 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,507 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,508 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,508 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,509 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,513 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,513 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,514 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,514 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,518 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,519 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,519 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,519 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,523 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,728 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,728 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,729 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,734 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,735 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,735 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,736 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,741 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,742 - Source IP: 192.168.100.2, Destination IP: 52.168.117.169
+2024-03-17 16:48:52,742 - Networking connection detected from 192.168.100.2
+2024-03-17 16:48:52,743 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:48:52,747 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:48:52,748 - Source IP: 52.168.117.169, Destination IP: 192.168.100.2
+2024-03-17 16:48:52,748 - Networking connection detected from 52.168.117.169
+2024-03-17 16:48:52,748 - Attack information stored in attack_info.json for 52.168.117.169: Networking connection
+2024-03-17 16:48:52,752 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:50:41,516 - package: mysql.connector.plugins
+2024-03-17 16:50:41,518 - plugin_name: mysql_native_password
+2024-03-17 16:50:41,519 - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-03-17 16:50:41,562 - Error scanning for malware: [WinError 3] The system cannot find the path specified
+2024-03-17 16:50:41,568 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,568 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,568 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,568 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,568 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,569 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,569 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,569 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,569 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,569 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,570 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,570 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,570 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,570 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,570 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,571 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,571 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,571 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,571 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,571 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,571 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,572 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:41,572 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:50:43,678 - Source IP: 192.168.100.2, Destination IP: 50.16.1.199
+2024-03-17 16:50:43,680 - Networking connection detected from 192.168.100.2
+2024-03-17 16:50:43,790 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:50:43,804 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:50:43,968 - Source IP: 50.16.1.199, Destination IP: 192.168.100.2
+2024-03-17 16:50:43,969 - Networking connection detected from 50.16.1.199
+2024-03-17 16:50:43,969 - Attack information stored in attack_info.json for 50.16.1.199: Networking connection
+2024-03-17 16:50:43,978 - Error saving data to MySQL database: create_table() missing 1 required positional argument: 'columns'
+2024-03-17 16:50:44,178 - Source IP: 192.168.100.2, Destination IP: 64.233.184.188
+2024-03-17 16:50:44,187 - Networking connection detected from 192.168.100.2
+2024-03-17 16:50:44,189 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:55:13,918 - package: mysql.connector.plugins
+2024-03-17 16:55:14,012 - plugin_name: mysql_native_password
+2024-03-17 16:55:14,016 - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2024-03-17 16:55:14,088 - Error scanning for malware: [WinError 3] The system cannot find the path specified
+2024-03-17 16:55:14,095 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,095 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,095 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,096 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,096 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,096 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,096 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,096 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,097 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,107 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,107 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,107 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,107 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,108 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,108 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,108 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,108 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,108 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,109 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,109 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,109 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,110 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,110 - Error saving data to MySQL database: 'event_type'
+2024-03-17 16:55:14,158 - Source IP: 20.189.173.18, Destination IP: 192.168.100.2
+2024-03-17 16:55:14,159 - Networking connection detected from 20.189.173.18
+2024-03-17 16:55:14,160 - Attack information stored in attack_info.json for 20.189.173.18: Networking connection
+2024-03-17 16:55:14,534 - Source IP: 192.168.100.2, Destination IP: 20.189.173.18
+2024-03-17 16:55:14,536 - Networking connection detected from 192.168.100.2
+2024-03-17 16:55:14,537 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:55:14,571 - Source IP: 192.168.100.2, Destination IP: 20.189.173.18
+2024-03-17 16:55:14,571 - Networking connection detected from 192.168.100.2
+2024-03-17 16:55:14,572 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:55:14,839 - Source IP: 20.189.173.18, Destination IP: 192.168.100.2
+2024-03-17 16:55:14,840 - Networking connection detected from 20.189.173.18
+2024-03-17 16:55:14,841 - Attack information stored in attack_info.json for 20.189.173.18: Networking connection
+2024-03-17 16:55:14,865 - Source IP: 20.189.173.18, Destination IP: 192.168.100.2
+2024-03-17 16:55:14,865 - Networking connection detected from 20.189.173.18
+2024-03-17 16:55:14,892 - Attack information stored in attack_info.json for 20.189.173.18: Networking connection
+2024-03-17 16:55:15,183 - Source IP: 192.168.100.2, Destination IP: 20.189.173.18
+2024-03-17 16:55:15,184 - Networking connection detected from 192.168.100.2
+2024-03-17 16:55:15,185 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:55:15,214 - Source IP: 192.168.100.2, Destination IP: 64.233.184.188
+2024-03-17 16:55:15,214 - Networking connection detected from 192.168.100.2
+2024-03-17 16:55:15,215 - Attack information stored in attack_info.json for 192.168.100.2: Networking connection
+2024-03-17 16:55:15,354 - Source IP: 64.233.184.188, Destination IP: 192.168.100.2
+2024-03-17 16:55:15,355 - Networking connection detected from 64.233.184.188
+2024-03-17 16:55:15,357 - Attack information stored in attack_info.json for 64.233.184.188: Networking connection

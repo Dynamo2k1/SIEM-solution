@@ -6,6 +6,23 @@ import mysql.connector
 from mysql.connector import Error
 from configparser import ConfigParser
 
+# Initialize variables to store networking and logs data
+networking_data = []
+logs_data = []
+
+# Connect to MySQL database
+def connect():
+    """ Connect to MySQL database """
+    try:
+        config = read_config()
+        conn = mysql.connector.connect(**config)
+        cursor = conn.cursor()
+        if conn.is_connected():
+            print('Connected to MySQL database')
+            return conn, cursor
+    except Error as e:
+        print(e)
+
 def read_config(filename='config.ini', section='mysql'):
     parser = ConfigParser()
     parser.read(filename)
@@ -18,17 +35,6 @@ def read_config(filename='config.ini', section='mysql'):
         raise Exception(f'Section {section} not found in the {filename} file')
     return config
 
-def connect():
-    """ Connect to MySQL database """
-    try:
-        config = read_config()
-        conn = mysql.connector.connect(**config)
-        if conn.is_connected():
-            print('Connected to MySQL database')
-            return conn
-    except Error as e:
-        print(e)
-
 def close(conn, cursor):
     """ Close MySQL database connection """
     try:
@@ -38,9 +44,7 @@ def close(conn, cursor):
     except Error as e:
         print(e)
 
-def ingest_data(directory):
-    conn = connect()
-    cursor = conn.cursor()
+def ingest_data(conn, cursor, directory):
     try:
         for filename in os.listdir(directory):
             if filename.endswith('.json'):
@@ -56,14 +60,34 @@ def ingest_data(directory):
                         INSERT INTO logs (timestamp, source_ip, destination_ip, event_type, user_name, message)
                         VALUES (%s, %s, %s, %s, %s, %s)
                     ''', (timestamp, source_ip, destination_ip, event_type, user, message))
-        conn.commit()
+                    conn.commit()
     except Exception as e:
         print(f'Error ingesting data: {e}')
     finally:
         close(conn, cursor)
 
+# Function to get the private IP address of the machine
+def get_private_ip():
+    try:
+        # Create a temporary socket to get the local IP address
+        temp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        temp_sock.connect(("8.8.8.8", 80))  # Connect to a known external server
+        local_ip = temp_sock.getsockname()[0]
+        temp_sock.close()
+        return local_ip
+    except Exception as e:
+        print(f"Error getting local IP address: {e}")
+        return None
+
+# Automatically detect the private IP address
+listen_ip = get_private_ip()
+if not listen_ip:
+    print("Failed to detect manager's private IP address")
+    exit()
+
+print(f"Detected manager's private IP address: {listen_ip}")
+
 # IP address and port to listen on
-listen_ip = "192.168.100.44"
 listen_port = 12345
 
 # Directory to store received data
@@ -84,13 +108,22 @@ def handle_connection(conn, addr):
             print(f"Error decoding JSON data: {e}")
             return
         
-        # Write the JSON data to a file
-        filename = f"{output_dir}/agent_{addr[0]}_{addr[1]}.json"
-        with open(filename, "w") as f:
-            json.dump(json_data, f, indent=4)
-        
-        # Ingest the data into the database
-        ingest_data(output_dir)
+        # Check the message type
+        if "timestamp" in json_data and "source_ip" in json_data:
+            # This is a log message from the agent
+            filename = f"{output_dir}/log_{addr[0]}_{addr[1]}.json"
+            with open(filename, "w") as f:
+                json.dump(json_data, f, indent=4)
+        elif "System" in json_data and "Application" in json_data:
+            # This is the Windows logs data
+            filename = f"{output_dir}/windows_logs.json"
+            with open(filename, "w") as f:
+                json.dump(json_data, f, indent=4)
+        else:
+            # This is networking data
+            filename = f"{output_dir}/networking_{addr[0]}_{addr[1]}.json"
+            with open(filename, "w") as f:
+                json.dump(json_data, f, indent=4)
     except Exception as e:
         print(f"Error handling connection: {e}")
     finally:
@@ -118,3 +151,17 @@ except Exception as e:
 finally:
     # Close the socket
     sock.close()
+
+# Save networking data to a file
+with open("networking_data.json", "w") as f:
+    for data in networking_data:
+        json.dump(data, f, indent=4)
+
+# Save logs data to a file
+with open("logs_data.json", "w") as f:
+    for data in logs_data:
+        json.dump(data, f, indent=4)
+
+# Connect to MySQL database and ingest logs data
+conn, cursor = connect()
+ingest_data(conn, cursor, output_dir)
